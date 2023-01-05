@@ -1,0 +1,172 @@
+*,li,ul,a,h1,ul{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  color: white;
+  font-family: 'SF Pro Display', sans-serif;
+}
+
+
+.big-head{
+  font-size: 190px;
+  font-weight: 700;
+  color: #f4f2f2;
+  display: inline;
+  padding: 0;
+  margin: 0;
+  transform: scale(1.1);
+  line-height: 1;
+  opacity: 1;
+}
+
+.small-head{
+  color:  #00ff41;
+  font-size: 30px;
+  display: inline;
+  line-height: 2;
+  font-weight:600;
+}
+
+.nav-bar{
+  width: 1024px;
+  margin: auto;
+
+}
+#scoundNav{
+  width: 1024px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.686);
+ backdrop-filter:blur(50px);
+z-index: 90;
+
+}
+.apple-link{
+  color: #d4d3d3;
+  font-size: 18px;
+  transition: all .4s;
+}
+.apple-link:hover{
+  color: white;
+}
+.f-nav-link{
+  color: #d4d3d3;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all .4s;
+}
+.f-nav-link:hover{
+  color: white;
+
+}
+.f-nav-container{
+  margin: auto;
+  width: 990px;
+  padding: 8px 0px ;
+}
+.second-nav-container{
+  width: 990px;
+ margin: auto;
+  padding: 8px 0px  ;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.product-name{
+  font-size: 21px;
+  padding:0 ;
+  margin: 0;
+  color: #ffff;
+}
+.s-nav-link{
+  color: #ffff;
+  font-weight: 200;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all .4s;
+
+}
+.s-nav-link:hover{
+  color: #0071e3;
+
+}
+.nav-button{
+  margin-left: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 980px;
+}
+.nav-button a{
+  display: inline;
+  text-decoration: none;
+  color: #ffff;
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+}
+.nav-background{
+  position: relative;
+  width: 990px;
+  margin: auto;
+
+}
+.nav-background::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: .5px;
+  width: 100%;
+  display: table;
+  background-color: rgba(155, 155, 155, 0.473);
+}
+
+
+.wrapper-container{
+  position: sticky;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+.heads-container{
+  margin-top: 160px;
+  opacity: 0;
+}
+
+.heads-container p, h1{
+  padding: 0;
+  margin: 0;
+
+}
+#canvas{
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: -33%;
+}
+#canvas img{
+  transform: scale(.8);
+  margin-left: 25px;
+}
+
+
+#main{
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.watch{
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
