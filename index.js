@@ -20,14 +20,14 @@ $(window).scroll(function () {
 });
 const airPodsInfo={
     totalFrame:63,
-    totalTime:1,
+    totalTime:6,
     image:[],
     currentFrame:0,
     currentImage:(index)=>`https://www.apple.com/105/media/us/airpods-pro/2022/d2deeb8e-83eb-48ea-9721-f567cf0fffa8/anim/hero/large/${index.toString().padStart(4,'0')}.png`,
     }
 const totalTime={
     totalFrame:30,
-    totalTime:6,
+    totalTime:1,
     currentsize:1,
     scalesize:[],
     opacity:[],
@@ -58,7 +58,7 @@ const totalTime={
                  trigger:main,
                  start:'-50px',
                  end:'bottom',
-                 scrub:true,
+                 scrub:6,
                  pin:true,
                
         
